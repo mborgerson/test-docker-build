@@ -25,7 +25,7 @@ jobs:
             org.opencontainers.image.description=Another description
             org.opencontainers.image.vendor=MyCompany
           tags: |
-            type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', 'master') }}
+            type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', 'main') }}
             type=raw,event=branch
             type=sha
 
