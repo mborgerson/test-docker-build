@@ -12,7 +12,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: mborgerson/xemu-win64-toolchain
+  IMAGE_NAME: mborgerson/test-xemu-win64-toolchain
 
 jobs:
   build-image:
