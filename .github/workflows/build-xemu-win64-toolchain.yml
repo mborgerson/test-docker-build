@@ -12,7 +12,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: mborgerson/test-docker-build-blah
+  IMAGE_NAME: mborgerson/xxx
 
 jobs:
   build-image:
