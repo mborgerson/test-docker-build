@@ -25,7 +25,9 @@ jobs:
             org.opencontainers.image.description=Another description
             org.opencontainers.image.vendor=MyCompany
           tags: |
-            type=edge,branch=main
+            type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', 'master') }}
+            type=raw,event=branch
+            type=sha
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2.2.1
