@@ -24,6 +24,8 @@ jobs:
             org.opencontainers.image.title=MyCustomTitle
             org.opencontainers.image.description=Another description
             org.opencontainers.image.vendor=MyCompany
+          tags: |
+            type=edge,branch=main
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2.2.1
