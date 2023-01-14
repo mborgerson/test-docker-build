@@ -12,7 +12,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: test-xemu-win64-toolchain
+  IMAGE_NAME: mborgerson/test-docker-build-blah
 
 jobs:
   build-image:
