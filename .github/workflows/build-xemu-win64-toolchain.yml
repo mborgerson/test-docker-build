@@ -1,14 +1,6 @@
 name: Build xemu-win64-toolchain
 
-on:
-  push:
-    # paths:
-      # - '.github/workflows/build-xemu-win64-toolchain.yml'
-      # - 'ubuntu-win64-cross/**'
-  pull_request:
-    # paths:
-      # - '.github/workflows/build-xemu-win64-toolchain.yml'
-      # - 'ubuntu-win64-cross/**'
+on: [push, pull_request]
 
 env:
   REGISTRY: ghcr.io
